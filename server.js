@@ -74,7 +74,8 @@ app.use(cors({
       'http://localhost:3000',
       'http://127.0.0.1:3000',
       'http://localhost:3001', // In case frontend runs on different port
-      'http://127.0.0.1:3001'
+      'http://127.0.0.1:3001',
+      'https://vercel-frontend-delta-one.vercel.app' // Production frontend
     ];
     
     // In development, allow all localhost origins
